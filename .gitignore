@@ -13,6 +13,8 @@ go-pictrue-compressor
 *.dll
 *.so
 *.dylib
+*.csv
+*.log
 
 # 测试二进制文件
 *.test
