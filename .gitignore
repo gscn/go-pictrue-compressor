@@ -1,0 +1,47 @@
+# 忽略 images 文件夹
+images/
+
+# 忽略可执行文件
+main.exe
+
+# 忽略 imgcompress 文件
+imgcompress
+
+# 常见的 Go 项目忽略文件
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# 测试二进制文件
+*.test
+
+# 输出目录
+*.out
+
+# 依赖目录
+vendor/
+
+# IDE 文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 操作系统生成的文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 日志文件
+*.log
+
+# 临时文件
+*.tmp
+*.temp 
