@@ -25,7 +25,7 @@ var (
 )
 
 var rootCmd = &cobra.Command{
-	Use:   "imgcompress",
+	Use:   "go-pictrue-compressor",
 	Short: "高效的图片批量压缩工具",
 	Long:  `一个支持多格式、可配置参数的高效图片批量压缩命令行工具。`,
 	Run: func(cmd *cobra.Command, args []string) {
@@ -141,7 +141,7 @@ func init() {
 	rootCmd.PersistentFlags().IntVarP(&quality, "quality", "q", 75, "压缩质量 (1-100)")
 	rootCmd.PersistentFlags().StringVarP(&minSize, "min-size", "s", "0", "最小处理大小（如5M, 1G）")
 	rootCmd.PersistentFlags().IntVarP(&threads, "threads", "t", 0, "最大并发线程数 (默认CPU核心数/2)")
-	rootCmd.PersistentFlags().StringVarP(&logFile, "log-file", "l", "./imgcompress.csv", "日志文件路径")
+	rootCmd.PersistentFlags().StringVarP(&logFile, "log-file", "l", "./go-pictrue-compressor.csv", "日志文件路径")
 }
 
 func Execute() {

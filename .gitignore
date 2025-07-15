@@ -4,8 +4,8 @@ images/
 # 忽略可执行文件
 main.exe
 
-# 忽略 imgcompress 文件
-imgcompress
+# 忽略 go-pictrue-compressor 文件
+go-pictrue-compressor
 
 # 常见的 Go 项目忽略文件
 *.exe

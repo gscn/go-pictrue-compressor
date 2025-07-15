@@ -23,12 +23,12 @@
 3. 拉取依赖并编译：
    ```sh
    go mod tidy
-   go build -o imgcompress main.go
+   go build -o go-pictrue-compressor main.go
    ```
 
 ## 使用示例
 ```sh
-./imgcompress -d ./images -w 1920 -q 85 -s 1M -t 4 -l ./imgcompress.log
+./go-pictrue-compressor -d ./images -w 1920 -q 85 -s 1M -t 4 -l ./go-pictrue-compressor.csv
 ```
 
 ## 参数说明
@@ -39,7 +39,7 @@
 | --quality | -q | 否 | 整数(1-100) | 压缩质量 | 75 |
 | --min-size | -s | 否 | 字符串 | 最小处理大小（如5M, 1G） | 0 |
 | --threads | -t | 否 | 整数 | 最大并发线程数 | CPU核心数/2 |
-| --log-file | -l | 否 | 字符串 | 日志文件路径 | ./imgcompress.log |
+| --log-file | -l | 否 | 字符串 | 日志文件路径 | ./go-pictrue-compressor.csv |
 | --help | -h | 否 | 无 | 显示帮助信息 | false |
 
 ## 日志说明
